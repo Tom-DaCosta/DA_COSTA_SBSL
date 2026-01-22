@@ -14,7 +14,7 @@ L'objectif est de tester n types d'engrais sur n x n parcelles de terrain. Pour 
 ## Structure du projet
 
 Pour respecter le package Java défini dans le code, votre dossier doit être organisé ainsi:
-
+```
 DA_COSTA_SBLS/
 ├── choco-solver.jar
 ├── README.md
@@ -22,7 +22,7 @@ DA_COSTA_SBLS/
 └── Constraint/
     └── ChocoProject/
         └── Chocoproject.java
-
+```
 ## Compilation
 
 Ouvrez un terminal dans le dossier racine (DA_COSTA_SBLS) et lancez la commande suivante :
