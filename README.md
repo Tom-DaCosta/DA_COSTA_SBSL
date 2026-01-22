@@ -28,21 +28,28 @@ DA_COSTA_SBLS/
 Ouvrez un terminal dans le dossier racine (DA_COSTA_SBLS) et lancez la commande suivante :
 
 Sur Windows :
+```
 javac -cp ".;choco-solver.jar" Constraint/ChocoProject/Chocoproject.java
+```
 
 Sur Linux / macOS :
+```
 javac -cp ".:choco-solver.jar" Constraint/ChocoProject/Chocoproject.java
+```
 
 ## Exécution
 
 Une fois compilé, vous pouvez exécuter le programme en précisant les valeurs de n souhaitées (par exemple n=3 et n=4) :
 
 Sur Windows :
+```
 java -cp ".;choco-solver.jar" Constraint.ChocoProject.Chocoproject 3 4
+```
 
 Sur Linux / macOS :
+```
 java -cp ".:choco-solver.jar" Constraint.ChocoProject.Chocoproject 3 4
-
+```
 ## Contenu du rapport
 
 Le rapport joint (Rapport.pdf) détaille:
