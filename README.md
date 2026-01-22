@@ -1,10 +1,10 @@
 # Projet SBLS : Spatially Balanced Latin Square
 
-[cite_start]Ce projet porte sur la résolution du problème des Carrés Latins Spatialement Équilibrés (SBLS) en utilisant la programmation par contraintes avec la bibliothèque Choco Solver[cite: 7].
+Ce projet porte sur la résolution du problème des Carrés Latins Spatialement Équilibrés (SBLS) en utilisant la programmation par contraintes avec la bibliothèque Choco Solver.
 
 ## Description du problème
 
-[cite_start]L'objectif est de tester n types d'engrais sur n x n parcelles de terrain[cite: 1, 2, 5]. [cite_start]Pour éviter les biais de proximité (comme le voisinage fréquent de deux engrais spécifiques), on utilise un SBLS[cite: 5, 6]. [cite_start]Dans ce modèle, la somme des distances entre chaque paire d'engrais doit être identique pour l'ensemble du carré latin[cite: 6].
+L'objectif est de tester n types d'engrais sur n x n parcelles de terrain. Pour éviter les biais de proximité (comme le voisinage fréquent de deux engrais spécifiques), on utilise un SBLS. Dans ce modèle, la somme des distances entre chaque paire d'engrais doit être identique pour l'ensemble du carré latin.
 
 ## Prérequis
 
@@ -13,9 +13,9 @@
 
 ## Structure du projet
 
-[cite_start]Pour respecter le package Java défini dans le code, votre dossier doit être organisé ainsi[cite: 10]:
+Pour respecter le package Java défini dans le code, votre dossier doit être organisé ainsi:
 
-NOM_PRENOM_SBLS/
+DA_COSTA_SBLS/
 ├── choco-solver.jar
 ├── README.md
 ├── Rapport.pdf
@@ -25,7 +25,7 @@ NOM_PRENOM_SBLS/
 
 ## Compilation
 
-Ouvrez un terminal dans le dossier racine (NOM_PRENOM_SBLS) et lancez la commande suivante :
+Ouvrez un terminal dans le dossier racine (DA_COSTA_SBLS) et lancez la commande suivante :
 
 Sur Windows :
 javac -cp ".;choco-solver.jar" Constraint/ChocoProject/Chocoproject.java
@@ -45,7 +45,7 @@ java -cp ".:choco-solver.jar" Constraint.ChocoProject.Chocoproject 3 4
 
 ## Contenu du rapport
 
-[cite_start]Le rapport joint (Rapport.pdf) détaille[cite: 10, 11]:
+Le rapport joint (Rapport.pdf) détaille:
 * Les contraintes utilisées (allDifferent, contraintes de distance).
 * Les algorithmes de filtrage (AC pour les contraintes allDifferent).
 * Les stratégies de recherche (choix des variables et des valeurs).
@@ -53,5 +53,4 @@ java -cp ".:choco-solver.jar" Constraint.ChocoProject.Chocoproject 3 4
 
 ## Contact
 
-Projet réalisé par [VOTRE NOM]
-[cite_start]Email de rendu : jcregin@gmail.com (avant le 25 janvier 2026)[cite: 11].
+Projet réalisé par [DA COSTA Tom]
