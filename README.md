@@ -9,13 +9,13 @@ L'objectif est de tester n types d'engrais sur n x n parcelles de terrain. Pour 
 ## Prérequis
 
 * Java SDK (version 11 ou supérieure).
-* Le fichier JAR de Choco Solver (ex: `choco-solver.jar`) placé à la racine du projet.
+* Le fichier JAR de Choco Solver (ex: `choco-solver-5.0.0-beta.1-light.jar`) placé à la racine du projet.
 
 ## Structure du projet
 
 ```
 DA_COSTA_SBLS/
-├── choco-solver.jar
+├── choco-solver-5.0.0-beta.1-light.jar
 ├── README.md
 ├── Rapport_SBLS.pdf
 └── Chocoproject.java
@@ -26,12 +26,12 @@ Ouvrez un terminal dans le dossier racine (DA_COSTA_SBLS) et lancez la commande 
 
 Sur Windows :
 ```
-javac -cp ".;choco-solver.jar" Constraint/ChocoProject/Chocoproject.java
+javac -cp ".;choco-solver-5.0.0-beta.1-light.jar" Constraint/ChocoProject/Chocoproject.java
 ```
 
 Sur Linux / macOS :
 ```
-javac -cp ".:choco-solver.jar" Constraint/ChocoProject/Chocoproject.java
+javac -cp ".:choco-solver-5.0.0-beta.1-light.jar" Constraint/ChocoProject/Chocoproject.java
 ```
 
 ## Exécution
@@ -40,12 +40,12 @@ Une fois compilé, vous pouvez exécuter le programme en précisant les valeurs 
 
 Sur Windows :
 ```
-java -cp ".;choco-solver.jar" Constraint.ChocoProject.Chocoproject 3 4
+java -cp ".;choco-solver-5.0.0-beta.1-light.jar" Constraint.ChocoProject.Chocoproject 3 4
 ```
 
 Sur Linux / macOS :
 ```
-java -cp ".:choco-solver.jar" Constraint.ChocoProject.Chocoproject 3 4
+java -cp ".:choco-solver-5.0.0-beta.1-light.jar" Constraint.ChocoProject.Chocoproject 3 4
 ```
 ## Contenu du rapport
 
