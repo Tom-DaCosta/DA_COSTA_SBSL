@@ -60,4 +60,4 @@ Le rapport joint (Rapport.pdf) détaille:
 
 ## Contact
 
-Projet réalisé par [DA COSTA Tom]
+Projet réalisé par DA COSTA Tom
